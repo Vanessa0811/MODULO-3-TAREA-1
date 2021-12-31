@@ -1,0 +1,79 @@
+
+body{
+    font-family: 'Bree Serif', serif;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+h1{
+    color: rgb(53, 39, 1);
+    font-family: 'Salsa', cursive;
+    font-size: 40px;
+}
+
+p{
+    text-align: center;
+    color: rgb(61, 49, 9);
+}
+
+
+.btn{
+    color: rgb(192, 233, 197);
+    background: rgb(187, 139, 49);
+    cursor: pointer;
+    border-radius:5px;
+    font-size: 14px;
+    padding: 13px 35px;
+}
+
+.conversor-imagen{
+    width: 150px;
+}
+
+
+.moneda{
+    padding: 10px 0;
+    display: center;
+    align-items: center;
+}
+
+.moneda select{
+    padding: 10px 20px 10px 10px;
+    border: 2px solid #1d1101c7;
+    font-size: 16px;
+}
+
+#numero-1{
+    border-radius:5px;
+    font-size: 14px;
+    padding: 5px 20px; 
+}
+
+.taza-cambio-container{
+    display: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cambio{
+    color: rgb(2, 32, 9);
+    font-size: 14px;
+    padding: 0 30px;
+    font-weight: 800;
+}
+
+#resultado{
+    border-radius:5px;
+    font-size: 14px;
+    padding: 5px 20px;
+}
+
+select:focus, input:focus, button:focus{
+    outline: 0;
+}

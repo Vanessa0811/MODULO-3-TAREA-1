@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Salsa&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <title>Conversor de divisas</title>
+</head>
+
+<body>
+    <center>
+    <img src="img/imagen.png" alt="" class="conversor-imagen">
+
+    <h1>Conversor de divisas</h1>
+
+    <p>Escoja el tipo de divisa y la cantidad para realizar la conversion</p>
+
+    <form>
+
+    <div class="cantidades">
+        <input type="number" name="numero" id="numero-1">
+    </div>
+
+    <div class="moneda">
+            <select id="moneda-uno"></select>
+            <select id="moneda-dos"></select>
+    </div>
+
+    <div class="taza-cambio-container">
+            <button type="submit" class="btn" id="taza">CONVERTIR</button>
+        <div class="cambio" id="cambio"></div> 
+    </div>     
+    <br>
+    <div class="resultado">
+            <input type="text" name="numeros" id="resultado">
+    </div>
+
+    </form>
+    <script src="./script/script.js"></script>
+</center>
+</body>
+
+</html>
